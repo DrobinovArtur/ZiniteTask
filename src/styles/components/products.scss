@@ -1,0 +1,36 @@
+.posts-page {
+  .user_panel .panel-body .panel-body {
+    position: relative;
+    comment-dir {
+      position: absolute;
+      right: 5px;
+      z-index: 1;
+    }
+
+  }
+  .panel-heading {
+    overflow: hidden;
+    .panel-title {
+      float: left;
+      margin-top: 5px;
+    }
+    .btn {
+      float: right;
+    }
+  }
+  .header-in-post {
+    float: left;
+    background-color: whitesmoke;
+    & + div {
+      clear: both;
+    }
+  }
+  .panel-repeated {
+    border: 1px solid lightgray;
+  }
+  .icon-like {
+    position: absolute;
+    right: 140px;
+    bottom: 8px;
+  }
+}

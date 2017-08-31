@@ -1,0 +1,23 @@
+@import "components/sing-in";
+@import "components/user-list";
+@import "components/profile-page";
+@import "components/registration";
+@import "components/products";
+@import "components/comments";
+
+header {
+  height: 40px;
+  .navbar-header {
+    float: left;
+  }
+  .navbar .navbar-right {
+    margin: 10px 0;
+    float: right;
+    button {
+      margin-right: 10px;
+    }
+  }
+}
+[ng-click] {
+  cursor: pointer;
+}
